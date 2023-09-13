@@ -1,0 +1,38 @@
+body{
+    background: url('https://i.ibb.co/v3NZ8zv/images.jpg'), linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    font-family: 'Montserrat', sans-serif;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+.card{
+    width: 250px;
+    height: 330px;
+    border: 1px solid grey;
+    color: white;
+    border-radius: 10px;
+}
+.photo{
+    width: 80px;
+    border-radius: 50px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.card-btn{
+    background-color: aqua;
+    top: -10px;
+}
+.home-container{
+    display: flex;
+}
+.card-container{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
